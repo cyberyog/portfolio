@@ -7,7 +7,7 @@
 
 
   }
- 
+
 
   .bad {
     background-color: #061321;
@@ -40,11 +40,9 @@
   }
 
   #hr1 {
-    border: none;
-    height: 2px;
-    background: linear-gradient(to left, gray 10%, gray 90%);
+   
     border-radius: 5px;
-    margin-top: -1px;
+    margin-top: -9px;
   }
 
   #hrr1 {
@@ -100,7 +98,13 @@
     background-color: " #001F3";
   }
 
-  h2,
+  h2{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    
+    
+  }
   h5 {
     color: white;
     margin-top: 10px;
@@ -108,17 +112,17 @@
 </style>
 
 <hr id="hr1">
-<h2>About me</h2>
+<h2>About Me</h2>
 <hr id="hr1">
 
 <div class="container-fluid">
 
-  <h3 class="skill">Skills</h3>
+  <h3 class="skill"></h3>
   <hr id="hrr1">
 
-  <div class="row">
+  <div class="row mt-5">
 
-    <div class="col-md">
+    <div class="col-md ">
 
       <h4 class="lan">Programming Skills</h4>
       <hr id="hr2">
@@ -152,7 +156,7 @@
 
     <div class=" col-md">
 
-      <h3 id="Dom">Application Development</h3>
+      <h4 id="Dom">Application Development</h4>
       <hr id="hr3">
 
       <h5>wep Appliaction</h5>
@@ -189,16 +193,19 @@
           <div class="bad badge  text-wrap rounded-pill border border-2" style="width: 6rem;">
             2020-2024
           </div><span id="sp1"> &nbsp; PABCET-Tiruchirappalli </span>
-          <div class="mt-2  ml-5" ><h4>B.TECH Information Technology</h4></div>
-          
-
+          <div class="mt-2  ml-5">
+            <h4>B.TECH Information Technology</h4>
+          </div>
+          <div class="mt-1 ml-5">Embarking on this enriching collage journey, which not only equipped me with technical skills but also instilled in me a passion for continuous learning and innovation, has been transformative. The diverse experiences and opportunities provided by the program and the college have played a pivotal role in shaping my career trajectory in the field of IT.</div>
 
         </div>
-        <div class="mt-2">
+        <div class="mt-4">
           <div class="bad badge  text-wrap rounded-pill border border-2" style="width: 6rem;">
             2019-2020
           </div><span id="sp1"> &nbsp; ST.JOSEPH.H.S.S,VENKIDAKULAM</span>
-          <div class="mt-2  ml-5" ><h4>Higher Secondary</h4></div>
+          <div class="mt-2  ml-5">
+            <h4>Higher Secondary</h4>
+          </div>
           <div class="mt-1 ml-5">
             <p>In a schooling environment where freedom and extra curricular is considered as equal as curricular and co-curricular activities, I was able to understand life.</p>
           </div>
