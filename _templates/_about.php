@@ -7,7 +7,10 @@
 
 
   }
+ .sp2{
+  font-family: 'Teko', sans-seri;
 
+ }
 
   .bad {
     background-color: #061321;
@@ -191,9 +194,19 @@
         <hr class="eh">
         <div class="mt-2">
           <div class="bad badge  text-wrap rounded-pill border border-2" style="width: 6rem;">
+            2023
+          </div><span id="sp1"> &nbsp; Selfmade Ninja Academy </span>
+          <div class="mt-3  ml-5">
+            <h4>Defencive & Offencive</h4>
+          </div>
+          <div class="mt-1 ml-5"> Essential for software engineers, security professionals, and system administrators. Students will learn how to build full-stack web applications, work with legacy systems, develop and secure APIs, program advanced networking features using sockets, and automate tasks using Python on the command line.</div>
+          <div  class="sp2 mt-1 ml-5"> &nbsp;I do various courses from time to time in SNA to understand and explore various practices of engineering and technology to keep myself updated in the field </div>
+        </div>
+        <div class="mt-2">
+          <div class="bad badge  text-wrap rounded-pill border border-2" style="width: 6rem;">
             2020-2024
           </div><span id="sp1"> &nbsp; PABCET-Tiruchirappalli </span>
-          <div class="mt-2  ml-5">
+          <div class="mt-3  ml-5">
             <h4>B.TECH Information Technology</h4>
           </div>
           <div class="mt-1 ml-5">Embarking on this enriching collage journey, which not only equipped me with technical skills but also instilled in me a passion for continuous learning and innovation, has been transformative. The diverse experiences and opportunities provided by the program and the college have played a pivotal role in shaping my career trajectory in the field of IT.</div>
@@ -203,7 +216,7 @@
           <div class="bad badge  text-wrap rounded-pill border border-2" style="width: 6rem;">
             2019-2020
           </div><span id="sp1"> &nbsp; ST.JOSEPH.H.S.S,VENKIDAKULAM</span>
-          <div class="mt-2  ml-5">
+          <div class="mt-3  ml-5">
             <h4>Higher Secondary</h4>
           </div>
           <div class="mt-1 ml-5">
@@ -216,8 +229,8 @@
         <div class="mt-2"></div>
       </div>
       <div class=" col-md mt-5">
-        <h3>Experience</h3>
-        <hr class="eh">
+        <!-- <h3>Experience</h3> -->
+        <!-- <hr class="eh"> -->
       </div>
 
     </div>
