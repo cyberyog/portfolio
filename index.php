@@ -20,7 +20,11 @@
 
 </main>
 <?php load_template('_footer')?>
-<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/dist/js/bootstrap.bundle.min.js">
+  
+</script>
+<script src="/assets/js/loading.js"></script>
+
 
     </body>
 </html>
