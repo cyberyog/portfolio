@@ -65,7 +65,7 @@
     <div class=" col-md-4" style="padding: 0;">
 
         <div class=" img-cv w-100 h-100  col" style="margin: 0; ">
-            <img  id="img"src="/portfolio/img/profile.svg" class="rounded-circle profile" alt="Dp">
+            <img  id="img"src="/img/profile.jpg" class="rounded-circle profile" alt="Dp">
         </div>
 
     </div>
@@ -79,7 +79,7 @@
                 learning and exploring the ever-evolving world of digital security.
             </p>
             <h1></h1>
-            <a href="../portfolio/Aboutme.php" class="btn btn-primary ">More about me!</a>
+            <a href="Aboutme.php" class="btn btn-primary ">More about me!</a>
         </div>
 
     </div>

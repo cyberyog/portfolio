@@ -1,5 +1,7 @@
 <script src="assets/js/color-modes.js"></script>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
 <!-- Add Bootstrap JavaScript and jQuery -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
