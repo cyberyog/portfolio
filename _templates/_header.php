@@ -95,10 +95,10 @@ background: radial-gradient(circle farthest-corner at center center, #CE78E3 0%,
 <header data-bs-theme="dark">
   <nav class=" a navbar navbar-expand-lg navbar-dark custom-navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.php">
+      <a class="navbar-brand" href="index">
         <img src="/img/profile.jpg" class="img-b rounded " alt="" width="15" height="15">
       </a>
-      <span class="navbar-brand mb-0 h1" id="span1"><a class=" vetri navbar-brand" href="index.php">Vetrivel M</a></span>
+      <span class="navbar-brand mb-0 h1" id="span1"><a class=" vetri navbar-brand" href="index">Vetrivel M</a></span>
 
       <!-- Add the toggle button for smaller scr eens -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -112,16 +112,16 @@ background: radial-gradient(circle farthest-corner at center center, #CE78E3 0%,
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="nav justify-content-end" id="ul">
           <li class="nav-item">
-            <a class="nav-link nav-col" aria-current="page" href="index.php">Home</a>
+            <a class="nav-link nav-col" aria-current="page" href="index">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-col" href="Aboutme.php">About me</a>
+            <a class="nav-link nav-col" href="Aboutme">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-col" href="Resume.php">Resume</a>
+            <a class="nav-link nav-col" href="Skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-col" href="Contect.php">Contact</a>
+            <a class="nav-link nav-col" href="Contact">Contact</a>
           </li>
         </ul>
       </div>
