@@ -74,12 +74,10 @@
         <div class="card-body text-center" id="name">
             <h2 style="margin-top: 10px; color:whitesmoke;">Vetrivel M</h2>
             <p class="card-text-center lh-base" style="text-align: justify; padding: 0; margin: 0; color:whitesmoke">
-                &nbsp;I'm a final year BTech.IT (Bachelor of Technology in Information Technology) student with a deep
-                passion for cybersecurity and ethical hacking. As a beginner in this exciting field, I am constantly
-                learning and exploring the ever-evolving world of digital security.
+                &nbsp;I'm a passionate final-year IT student pursuing my B.Tech degree with a strong interest in coding and development. As a dedicated programmer, I thrive on creating innovative solutions and exploring the ever-evolving world of technology. Currently honing my skills, I look forward to contributing my knowledge and enthusiasm to the field. Check out my webpage for a glimpse into my coding journey and development projects!
             </p>
             <h1></h1>
-            <a href="Aboutme.php" class="btn btn-primary ">More about me!</a>
+            <a href="Aboutme" class="btn btn-primary ">More about me!</a>
         </div>
 
     </div>

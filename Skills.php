@@ -14,7 +14,7 @@
 <main>
 
   
-<?php load_template('_resume')?>
+<?php load_template('_skills')?>
 
 </main>
 <?php load_template('_footer')?>
