@@ -1,8 +1,10 @@
 <style>
-custom-navbar {
-    background-color: #001F3F; /* Replace with your desired color code */
+.custom-navbar {
+    background-color: #061321; /* Replace with your desired color code #001F3F */
   }
-
+nav{
+  background-color:#061321 !important;
+}
   @media only screen and (max-width: 767px) {
     /* Styles specific to mobile screens */
     #span1 {
@@ -52,6 +54,8 @@ background: radial-gradient(circle farthest-corner at center center, #CE78E3 0%,
   }
   .img-b{
     margin-left: 12px;
+    border-radius: 50%;
+
 
   }
   #ul {
@@ -93,10 +97,10 @@ background: radial-gradient(circle farthest-corner at center center, #CE78E3 0%,
 </script>
 
 <header data-bs-theme="dark">
-  <nav class=" a navbar navbar-expand-lg navbar-dark custom-navbar">
+  <nav class=" a navbar navbar-expand-lg navbar-dark custom-navbar" >
     <div class="container-fluid">
       <a class="navbar-brand" href="index">
-        <img src="/img/profile.jpg" class="img-b rounded " alt="" width="15" height="15">
+        <img src="../../portfolio/img/profile.jpg" class="img-b  " alt="" width="35" height="35" >
       </a>
       <span class="navbar-brand mb-0 h1" id="span1"><a class=" vetri navbar-brand" href="index">Vetrivel M</a></span>
 

@@ -65,7 +65,7 @@
     <div class=" col-md-4" style="padding: 0;">
 
         <div class=" img-cv w-100 h-100  col" style="margin: 0; ">
-            <img  id="img"src="/img/profile.jpg" class="rounded-circle profile" alt="Dp">
+            <img  id="img"src="../../portfolio/img/profile.jpg" class="rounded-circle profile" alt="Dp">
         </div>
 
     </div>
