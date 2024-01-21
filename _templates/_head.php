@@ -1,11 +1,20 @@
 <script src="assets/js/color-modes.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Poppins:ital@1&family=Signika+Negative:wght@500;600;700&family=Teko:wght@300&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Signika+Negative:wght@500&family=Teko:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
 <!-- Add Bootstrap JavaScript and jQuery -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Signika+Negative:wght@500;600;700&family=Teko:wght@300&display=swap" rel="stylesheet">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -32,14 +41,20 @@
 
 
 <style>
+
+
+  *{
+    color:white !important;
+  }
   main {
-    margin: 10px 10px 10px 10px;
+    /* margin: 10px 10px 10px 10px; */
   }
 
   body {
-
-
-    background-color: #061321;
+            margin: 0;
+            padding-top: 70px; /* Adjust padding to match the height of your navbar */
+            font-family: Arial, sans-serif;
+            background-color: #061321;
   }
 
   .bd-placeholder-img {

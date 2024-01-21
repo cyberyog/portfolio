@@ -1,4 +1,9 @@
 <style>
+
+  .nam{
+    font-size: 38px;
+    font-family: 'Signika Negative', sans-serif;
+  }
   .img-cv{
     padding: 20px;
     
@@ -55,7 +60,15 @@
     margin-top: 65px;
     width: 65%;
   }
-} */ */
+} */ 
+#card-text-me {
+  font-size: 22px;
+  font-family: 'Signika Negative', sans-serif;
+  text-align: justify; 
+  padding: 0;
+   margin: 0; 
+  color:whitesmoke
+}
 
 </style>
 
@@ -65,16 +78,16 @@
     <div class=" col-md-4" style="padding: 0;">
 
         <div class=" img-cv w-100 h-100  col" style="margin: 0; ">
-            <img  id="img"src="../../portfolio/img/profile.jpg" class="rounded-circle profile" alt="Dp">
+            <img  id="img"src="/img/profile.jpg" class="rounded-circle profile" alt="Dp">
         </div>
 
     </div>
     <div class="container text-center col-md" style="padding: 0;">
 
         <div class="card-body text-center" id="name">
-            <h2 style="margin-top: 10px; color:whitesmoke;">Vetrivel M</h2>
-            <p class="card-text-center lh-base" style="text-align: justify; padding: 0; margin: 0; color:whitesmoke">
-                &nbsp;I'm a passionate final-year IT student pursuing my B.Tech degree with a strong interest in coding and development. As a dedicated programmer, I thrive on creating innovative solutions and exploring the ever-evolving world of technology. Currently honing my skills, I look forward to contributing my knowledge and enthusiasm to the field. Check out my webpage for a glimpse into my coding journey and development projects!
+            <h1 class="nam" style="margin-top: 10px; color:whitesmoke;">Vetrivel M</h1>
+            <p id="card-text-me" class=" card-text-center lh-base" style="">
+                &nbsp;Hi,I'm a passionate final-year IT student pursuing my B.Tech degree with a strong interest in coding and development. As a dedicated programmer, I thrive on creating innovative solutions and exploring the ever-evolving world of technology. Currently honing my skills, I look forward to contributing my knowledge and enthusiasm to the field. Check out my webpage for a glimpse into my coding journey and development projects!
             </p>
             <h1></h1>
             <a href="Aboutme" class="btn btn-primary ">More about me!</a>

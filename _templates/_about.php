@@ -112,11 +112,16 @@
     color: white;
     margin-top: 10px;
   }
+  #skill{
+   
+   background-color:#0a2138;
+ }
 </style>
 
-<hr id="hr1">
-<h2>About Me</h2>
-<hr id="hr1">
+<div id="skill">
+<hr id="hr1">  
+<h2 class="ml-3">About me</h2>
+<hr id="hr1"></div>
 
 
   <div class="container-fluid">

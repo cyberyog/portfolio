@@ -1,16 +1,31 @@
 <style>
+  
 .custom-navbar {
     background-color: #061321; /* Replace with your desired color code #001F3F */
   }
-nav{
-  background-color:#061321 !important;
+  .navbar {
+    background-color: #061321 !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
-  @media only screen and (max-width: 767px) {
+
+  /* @media only screen and (max-width: 767px) {
     /* Styles specific to mobile screens */
-    #span1 {
-      width: 72%;
+    /* #span1 {
+      width: 50%;
     }
-  }
+    .img-b{
+    margin-left: 7px;
+    border-radius: 50%;
+    width:15px; 
+    height:15px;
+
+
+  } */ 
+  
   .navbar-toggler:focus,
   .navbar-toggler:active {
     outline: none;
@@ -55,6 +70,8 @@ background: radial-gradient(circle farthest-corner at center center, #CE78E3 0%,
   .img-b{
     margin-left: 12px;
     border-radius: 50%;
+    width:35px; 
+    height:35px;
 
 
   }
@@ -69,40 +86,45 @@ background: radial-gradient(circle farthest-corner at center center, #CE78E3 0%,
   @media only screen and (max-width: 767px) {
     /* Styles specific to mobile screens */
     #span1 {
-      width: 72%;
+      width: 50%;
+      margin-left:-40px;
+    }
+    .img-b{
+    margin-left: 7px;
+    border-radius: 50%;
+    width:25px; 
+    height:25px;
+  }
+}
+@media only screen and (min-width: 767px) {
+    /* Styles specific to mobile screens */
+    #span1 {
+      width: 50%;
+      margin-left:20px;
     }
   }
-
   .nav-col {
     color: white;
+  }
+
+  #span1{
+    
+font-family: 'Signika Negative', sans-serif;
+
   }
 </style>
 
 <script>
-  <!-- Add this script inside the <head> or at the end of the <body> tag -->
-  
-  document.addEventListener("DOMContentLoaded", function () {
-    // Function to show a generic "Coming Soon" alert message
-    function showComingSoonAlert(event) {
-      alert("Coming Soon!");
-      event.preventDefault();
-    }
-
-    // Attach click event listeners to the "Resume" and "Contact" links
-    document.querySelector('a[href="Resume.php"]').addEventListener("click", showComingSoonAlert);
-    document.querySelector('a[href="Contect.php"]').addEventListener("click", showComingSoonAlert);
-  });
-
+ 
 
 </script>
 
 <header data-bs-theme="dark">
   <nav class=" a navbar navbar-expand-lg navbar-dark custom-navbar" >
     <div class="container-fluid">
-      <a class="navbar-brand" href="index">
-        <img src="../../portfolio/img/profile.jpg" class="img-b  " alt="" width="35" height="35" >
-      </a>
-      <span class="navbar-brand mb-0 h1" id="span1"><a class=" vetri navbar-brand" href="index">Vetrivel M</a></span>
+        <img src="/img/profile.jpg" class="img-b  " alt=""  >
+   
+      <p class="navbar-brand mb-0 h1" id="span1"><a class=" vetri navbar-brand" href="Home">Vetrivel M</a></p>
 
       <!-- Add the toggle button for smaller scr eens -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -116,7 +138,7 @@ background: radial-gradient(circle farthest-corner at center center, #CE78E3 0%,
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="nav justify-content-end" id="ul">
           <li class="nav-item">
-            <a class="nav-link nav-col" aria-current="page" href="index">Home</a>
+            <a class="nav-link nav-col" aria-current="page" href="Home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-col" href="Aboutme">About me</a>

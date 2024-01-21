@@ -7,10 +7,11 @@
 
 
   }
- .sp2{
-  font-family: 'Teko', sans-seri;
 
- }
+  .sp2 {
+    font-family: 'Teko', sans-seri;
+
+  }
 
   .bad {
     background-color: #061321;
@@ -42,11 +43,11 @@
 
   }
 
-  #hr1 {
-   
+  /* #hr1 {
+
     border-radius: 5px;
     margin-top: -9px;
-  }
+  } */
 
   #hrr1 {
     border: none;
@@ -89,6 +90,14 @@
     width: 330px;
   }
 
+  #hr4 {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #26D7FA 10%, gray 90%);
+    border-radius: 5px;
+    width: 200px;
+  }
+
   /* .progress {
     
   } */
@@ -101,22 +110,32 @@
     background-color: " #001F3";
   }
 
-  h2{
-    color: white;
+  h2 {
     margin-top: 40px;
     margin-bottom: 45px;
+    color: white;
     
-    
+
+
   }
+
   h5 {
     color: white;
     margin-top: 10px;
   }
+  #skill{
+   
+    background-color:#0a2138;
+  }
 </style>
 
-<hr id="hr1">
-<h2>Skills</h2>
-<hr id="hr1">
+
+<div id="skill">
+<hr id="hr1">  
+<h2 class="ml-3">Skills</h2>
+<hr id="hr1"></div>
+
+
 
 <div class="container-fluid">
 
@@ -125,80 +144,107 @@
 
   <div class="row mt-5">
 
-    <div class="col-md ">
+    <div class="col-md-6 ">
 
       <h4 class="lan">Programming Skills</h4>
       <hr id="hr2">
 
       <h5>C</h5>
-      <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="58" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar progress-bar-striped  progress-bar-animated" style="width: 58%"></div>
       </div>
 
       <h5>Python</h5>
-      <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="70" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated " style="width: 70%"></div>
       </div>
 
       <h5>php</h5>
-      <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="68" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 68%"></div>
       </div>
 
       <h5>html & css</h5>
-      <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="80" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar progress-bar-striped  progress-bar-animated" style="width: 80%"></div>
       </div>
 
       <h5>JavaScript</h5>
-      <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="50" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar progress-bar-striped  progress-bar-animated" style="width: 50%"></div>
       </div>
 
     </div>
 
-    <div class=" col-md">
+    <div class=" col-md-6">
 
       <h4 id="Dom">Application Development</h4>
       <hr id="hr3">
 
       <h5>wep Appliaction</h5>
-      <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="50" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
       </div>
 
       <h5>Linux CLI Application</h5>
-      <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="58" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar progress-bar-striped  progress-bar-animated" style="width: 38%"></div>
       </div>
 
       <h5>Sockets</h5>
-      <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="70" aria-valuemin="0"
+        aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated " style="width: 10%"></div>
       </div>
-
+      <!-- 
       <h5> Customized Servers</h5>
       <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 18%"></div>
-      </div>
+      </div> -->
 
 
 
     </div>
+    
 
   </div>
- 
+  <div class="row mt-5">
+      <div class=" col-md-6">
 
-
+        <h4 id="Dom">Database</h4>
+        <hr id="hr4">
+        <h5>MySQL</h5>
+        <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="50"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
         </div>
-        <div class="mt-2"></div>
+
+        <h5>MongoDB</h5>
+        <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="58"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped  progress-bar-animated" style="width: 38%"></div>
+        </div>
+
       </div>
-      <div class=" col-md mt-5">
-        <!-- <h3>Experience</h3> -->
-        <!-- <hr class="eh"> -->
-      </div>
+
+
+
 
     </div>
 
-  </div>
+
+
+</div>
+
+
+</div>
+
+</div>
 </div>
