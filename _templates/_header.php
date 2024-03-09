@@ -61,8 +61,9 @@
     transition: background-color 0.3s ease-in-out;
   }
   .vetri{
-    background: #CE78E3;
-background: radial-gradient(circle farthest-corner at center center, #CE78E3 0%, #73FF63 25%, #FF7AED 50%, #75A0D9 75%, #E386E0 16%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+    background: ;
+    font-family: 'Signika Negative', sans-serif;
+
 
 
    
@@ -83,8 +84,14 @@ background: radial-gradient(circle farthest-corner at center center, #CE78E3 0%,
     background-color: #001F3F; /* Replace with your desired color code */
   }
 
+.vetri{
+  margin-left:4px;
+}
   @media only screen and (max-width: 767px) {
     /* Styles specific to mobile screens */
+    .vetri{
+      margin-left:-87px ;
+    }
     #span1 {
       width: 50%;
       margin-left:-40px;
@@ -95,6 +102,30 @@ background: radial-gradient(circle farthest-corner at center center, #CE78E3 0%,
     width:25px; 
     height:25px;
   }
+  .nav {
+    flex-direction: column; /* Change the direction to vertical */
+  }
+
+  .nav-item {
+    margin-bottom: 10px; /* Add spacing between vertical nav items */
+  }
+
+  .nav-link {
+    padding: .5rem 1rem; /* Adjust the padding as needed */
+  }
+  #ul {
+        background-color: transparent;
+
+        margin-left: auto; /* Align the nav list to the right */
+        text-align: end; /* Reduce the width of the nav list */
+    }
+    .navbar-collapse {
+        width: 50%; /* Reduce the overall width of the navbar */
+        margin-left: auto; /* Align the navbar to the right */
+    }
+
+    
+  
 }
 @media only screen and (min-width: 767px) {
     /* Styles specific to mobile screens */
@@ -122,9 +153,10 @@ font-family: 'Signika Negative', sans-serif;
 <header data-bs-theme="dark">
   <nav class=" a navbar navbar-expand-lg navbar-dark custom-navbar" >
     <div class="container-fluid">
+      
         <img src="/img/profile.jpg" class="img-b  " alt=""  >
    
-      <p class="navbar-brand mb-0 h1" id="span1"><a class=" vetri navbar-brand" href="Home">Vetrivel M</a></p>
+      <a class=" vetri navbar-brand" href="Home">Vetrivel M</a></p>
 
       <!-- Add the toggle button for smaller scr eens -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -143,9 +175,7 @@ font-family: 'Signika Negative', sans-serif;
           <li class="nav-item">
             <a class="nav-link nav-col" href="Aboutme">About me</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link nav-col" href="Skills">Skills</a>
-          </li>
+          
           <li class="nav-item">
             <a class="nav-link nav-col" href="Contact">Contact</a>
           </li>

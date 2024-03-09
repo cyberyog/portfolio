@@ -26,7 +26,9 @@
 <meta name="description" content="">
 <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 <meta name="generator" content="Hugo 0.115.4">
-<title>Portfolio</title>
+<title>Yogvetri</title>
+<link class="rounded"rel="shortcut icon " href="/img/image.png" type="image/png">
+
 
 <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
 
